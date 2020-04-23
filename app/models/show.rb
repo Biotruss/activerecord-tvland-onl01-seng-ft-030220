@@ -9,5 +9,6 @@ class Show < ActiveRecord::Base
       b = "#{a.first_name} #{a.last_name}"
       list << b
     end
+    list
   end
 end
